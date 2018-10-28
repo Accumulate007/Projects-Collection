@@ -1,16 +1,16 @@
 ## 课程涉及内容
-1.NodeJS模块: http,url,fs
-2.项目开发常用中间件: cookie-parser,body-parser,express-session,multiparty,md5-node
-3.Ejs模板引擎的使用
-4.express的使用
-5.mongodb数据的连接，使用
-6.模块化开发，代码的分隔组织
+1.NodeJS模块: http,url,fs<br/>
+2.项目开发常用中间件: cookie-parser,body-parser,express-session,multiparty,md5-node<br/>
+3.Ejs模板引擎的使用<br/>
+4.express的使用<br/>
+5.mongodb数据的连接，使用<br/>
+6.模块化开发，代码的分隔组织<br/>
 
 ### lesson-01
 NoodeJS是单线程的
 
 ### lesson-02: http模块、url模块
-传统的PHP等语言，需要借用apache,nginx等http服务器。NodeJS自带了http模块，可以实现http功能
+传统的PHP等语言，需要借用apache,nginx等http服务器。NodeJS自带了http模块，可以实现http功能<br/>
 使用supervisor实现代码文件变更的自动重启
 
 ### lesson-03: CommonJS和NodeJS中自定义模块
@@ -54,10 +54,10 @@ fs.unlink       // 删除文件
 ### lesson-09: 仿照Express封装路由模块
 
 ### lesson-10: MongDb
-什么时候使用NoSQL
-1.对数据库高并发读写需求
-2.对海量数据的高效率存储和访问的需求
-3.对数据库的高可扩展性和高可用性的需求
+什么时候使用NoSQL<br/>
+1.对数据库高并发读写需求<br/>
+2.对海量数据的高效率存储和访问的需求<br/>
+3.对数据库的高可扩展性和高可用性的需求<br/>
 
 非结构型数据库，没有行、列的概念，用JSON来存储数据
 
@@ -89,14 +89,14 @@ db.表名.find()
 npm install mongodb --D
 
 ### lesson-12: express
-1.cookie的使用
-2.C盘->Windows->System32->drivers->etc文件可以配置计算机域名
-3.cookie的加密
-4.使用cookie保存浏览记录
+1.cookie的使用<br/>
+2.C盘->Windows->System32->drivers->etc文件可以配置计算机域名<br/>
+3.cookie的加密<br/>
+4.使用cookie保存浏览记录<br/>
 
 ### lesson-13: express-session中间件的使用
 
 ### lesson-14: express+mongoDB打造商城系统
-1.使用md5-node进行用户名密码的加密
-2.图片上传插件 multiparty
+1.使用md5-node进行用户名密码的加密<br/>
+2.图片上传插件 multiparty<br/>
 3.使用express.Router()进行项目的模块化改造
